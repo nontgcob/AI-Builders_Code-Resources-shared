@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Result | Text to Exam (Vocabulary Exam Generator)</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Rubik', sans-serif;
+                background-color: #1B1B1B;
+                color: #FFF7D0;
+                font-size: 62.5%;
+                box-sizing: border-box;
+            }
+
+            .container {
+                padding: 3rem 3.4rem;
+                background-color: #212529;
+                border-radius: 24px;
+                height: 43.5rem;
+                width: 38rem;
+                margin: 0 auto;
+                margin-top: 8%;
+            }
+
+            h1 {
+                font-size: 3.5rem;
+                text-align: center;
+                background-color: transparent;
+                margin-bottom: .6rem;
+            }
+
+            .subtitle {
+                background-color: transparent;
+                font-size: 1.6rem;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+
+            i {
+                font-size: 15rem;
+                background-color: #212529;
+                margin: 6.2rem 0;
+                margin-left: 27%;
+            }
+
+            .download {
+                padding: .5rem 34%;
+                font-size: 2rem;
+                border: 2px solid #FFF7D0;
+                border-radius: 8px;
+                background-color: #FFF7D0;
+                color: #212529;
+                font-weight: 600;
+                width: 100%;
+                margin-top: 1rem;
+                text-decoration: none;
+            }
+
+            .dev {
+                background-color: transparent;
+                padding: 1rem 3rem;
+                width: 38rem;
+                margin: 0 auto;
+                margin-top: 15px;
+                border-radius: 40px;
+                border: 2px solid #FFF7D0;
+                display: flex;
+                flex-direction: row;
+                font-size: 2.4rem;
+                display: flex;
+                justify-content: center;
+                background-color: #212529;
+            }
+
+            .intro {
+                width: fit-content;
+                margin-right: 3px;
+                background-color: transparent;
+            }
+
+            .nont {
+                width: fit-content;
+                text-decoration: underline;
+                text-decoration-thickness: 1.5px;
+                background-color: transparent;
+            }
+
+            .nont:hover {
+                background-color: #FFF7D0;
+                text-decoration: none;
+                color: #212529;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Result</h1>
+            <p class="subtitle">Exam successfully generated!</p>
+            <!-- <p>{{ output }}</p> -->
+            <i class="fa-regular fa-circle-check"></i>
+            <a href="/send" class="download" download>Download</a>
+        </div>
+        <div class="dev">
+            <p class="intro">Developed by</p>
+            <a href="https://nontgcob.com/" class="nont">Nutnornont Chamadol</a>
+        </div>
+    </body>
+</html>
